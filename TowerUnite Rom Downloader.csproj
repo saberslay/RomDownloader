@@ -79,5 +79,22 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Consoles\Dreamcast\" />
+    <Folder Include="Consoles\Genesis\" />
+    <Folder Include="Consoles\Master System\" />
+    <Folder Include="Consoles\Nintendo\Nintendo 64\" />
+    <Folder Include="Consoles\Nintendo\Super Nintendo\" />
+    <Folder Include="Consoles\PlayStation\PlayStation 2\" />
+    <Folder Include="Consoles\PlayStation\PlayStation 3\" />
+    <Folder Include="Consoles\Saturn\" />
+    <Folder Include="Consoles\Wii\WiiWare\" />
+    <Folder Include="Consoles\Xbox\Xbox 360\" />
+    <Folder Include="Handhelds\Game Boy\Game Boy Advance\" />
+    <Folder Include="Handhelds\Game Boy\Game Boy Color\" />
+    <Folder Include="Handhelds\Nintendo DS\" />
+    <Folder Include="Handhelds\PlayStation Portable\" />
+    <Folder Include="Handhelds\Virtual Boy\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

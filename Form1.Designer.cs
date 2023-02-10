@@ -33,6 +33,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.HandheldsCBL = new System.Windows.Forms.CheckedListBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.DownloadAllRomsCD = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // ConsolesCLB
@@ -58,7 +59,7 @@
             "WiiWare"});
             this.ConsolesCLB.Location = new System.Drawing.Point(12, 25);
             this.ConsolesCLB.Name = "ConsolesCLB";
-            this.ConsolesCLB.Size = new System.Drawing.Size(122, 244);
+            this.ConsolesCLB.Size = new System.Drawing.Size(166, 79);
             this.ConsolesCLB.TabIndex = 0;
             // 
             // label1
@@ -71,7 +72,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(50, 9);
+            this.label2.Location = new System.Drawing.Point(78, 9);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 13);
             this.label2.TabIndex = 1;
@@ -83,33 +84,42 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.HandheldsCBL.FormattingEnabled = true;
             this.HandheldsCBL.Items.AddRange(new object[] {
-            "Game Boy",
             "Virtual Boy",
-            "Game Boy Color",
-            "Game Boy Advance",
+            "Game Boy",
             "Nintendo DS",
             "PlayStation Portable"});
-            this.HandheldsCBL.Location = new System.Drawing.Point(149, 25);
+            this.HandheldsCBL.Location = new System.Drawing.Point(184, 25);
             this.HandheldsCBL.Name = "HandheldsCBL";
-            this.HandheldsCBL.Size = new System.Drawing.Size(133, 244);
+            this.HandheldsCBL.Size = new System.Drawing.Size(164, 79);
             this.HandheldsCBL.TabIndex = 2;
             // 
             // label3
             // 
             this.label3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(195, 9);
+            this.label3.Location = new System.Drawing.Point(244, 10);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(58, 13);
             this.label3.TabIndex = 3;
             this.label3.Text = "Handhelds";
+            // 
+            // DownloadAllRomsCD
+            // 
+            this.DownloadAllRomsCD.AutoSize = true;
+            this.DownloadAllRomsCD.Location = new System.Drawing.Point(9, 110);
+            this.DownloadAllRomsCD.Name = "DownloadAllRomsCD";
+            this.DownloadAllRomsCD.Size = new System.Drawing.Size(339, 17);
+            this.DownloadAllRomsCD.TabIndex = 4;
+            this.DownloadAllRomsCD.Text = "Download all Roms (Warning this will take some time to Download)";
+            this.DownloadAllRomsCD.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.ClientSize = new System.Drawing.Size(294, 375);
+            this.ClientSize = new System.Drawing.Size(360, 138);
+            this.Controls.Add(this.DownloadAllRomsCD);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.HandheldsCBL);
             this.Controls.Add(this.label2);
@@ -129,6 +139,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.CheckedListBox HandheldsCBL;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.CheckBox DownloadAllRomsCD;
     }
 }
 
