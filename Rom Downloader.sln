@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowerUnite Rom Downloader", "TowerUnite Rom Downloader.csproj", "{F323D00E-3899-4ABD-BBDF-2DBB9EDE31B9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rom Downloader", "Rom Downloader.csproj", "{F323D00E-3899-4ABD-BBDF-2DBB9EDE31B9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

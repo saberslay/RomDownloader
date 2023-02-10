@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,6 +45,9 @@
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
+    <Reference Include="Utils">
+      <HintPath>..\Utils\Utils\bin\Release\Utils.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Form1.cs">
@@ -79,22 +83,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Consoles\Dreamcast\" />
-    <Folder Include="Consoles\Genesis\" />
-    <Folder Include="Consoles\Master System\" />
-    <Folder Include="Consoles\Nintendo\Nintendo 64\" />
-    <Folder Include="Consoles\Nintendo\Super Nintendo\" />
-    <Folder Include="Consoles\PlayStation\PlayStation 2\" />
-    <Folder Include="Consoles\PlayStation\PlayStation 3\" />
-    <Folder Include="Consoles\Saturn\" />
-    <Folder Include="Consoles\Wii\WiiWare\" />
-    <Folder Include="Consoles\Xbox\Xbox 360\" />
-    <Folder Include="Handhelds\Game Boy\Game Boy Advance\" />
-    <Folder Include="Handhelds\Game Boy\Game Boy Color\" />
-    <Folder Include="Handhelds\Nintendo DS\" />
-    <Folder Include="Handhelds\PlayStation Portable\" />
-    <Folder Include="Handhelds\Virtual Boy\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

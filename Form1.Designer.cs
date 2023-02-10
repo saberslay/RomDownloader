@@ -34,6 +34,9 @@
             this.HandheldsCBL = new System.Windows.Forms.CheckedListBox();
             this.label3 = new System.Windows.Forms.Label();
             this.DownloadAllRomsCD = new System.Windows.Forms.CheckBox();
+            this.OpenSelctedItemsBTN = new System.Windows.Forms.Button();
+            this.TowerUniteSteamdirectoryBTN = new System.Windows.Forms.Button();
+            this.TowerUniteSteamdirectoryPAHT = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // ConsolesCLB
@@ -90,7 +93,7 @@
             "PlayStation Portable"});
             this.HandheldsCBL.Location = new System.Drawing.Point(184, 25);
             this.HandheldsCBL.Name = "HandheldsCBL";
-            this.HandheldsCBL.Size = new System.Drawing.Size(164, 79);
+            this.HandheldsCBL.Size = new System.Drawing.Size(167, 79);
             this.HandheldsCBL.TabIndex = 2;
             // 
             // label3
@@ -106,19 +109,49 @@
             // DownloadAllRomsCD
             // 
             this.DownloadAllRomsCD.AutoSize = true;
-            this.DownloadAllRomsCD.Location = new System.Drawing.Point(9, 110);
+            this.DownloadAllRomsCD.Location = new System.Drawing.Point(12, 168);
             this.DownloadAllRomsCD.Name = "DownloadAllRomsCD";
             this.DownloadAllRomsCD.Size = new System.Drawing.Size(339, 17);
             this.DownloadAllRomsCD.TabIndex = 4;
             this.DownloadAllRomsCD.Text = "Download all Roms (Warning this will take some time to Download)";
             this.DownloadAllRomsCD.UseVisualStyleBackColor = true;
             // 
+            // OpenSelctedItemsBTN
+            // 
+            this.OpenSelctedItemsBTN.Location = new System.Drawing.Point(12, 139);
+            this.OpenSelctedItemsBTN.Name = "OpenSelctedItemsBTN";
+            this.OpenSelctedItemsBTN.Size = new System.Drawing.Size(116, 23);
+            this.OpenSelctedItemsBTN.TabIndex = 5;
+            this.OpenSelctedItemsBTN.Text = "Open Selected Items";
+            this.OpenSelctedItemsBTN.UseVisualStyleBackColor = true;
+            this.OpenSelctedItemsBTN.Click += new System.EventHandler(this.OpenSelctedItemsBTN_Click);
+            // 
+            // TowerUniteSteamdirectoryBTN
+            // 
+            this.TowerUniteSteamdirectoryBTN.Location = new System.Drawing.Point(12, 110);
+            this.TowerUniteSteamdirectoryBTN.Name = "TowerUniteSteamdirectoryBTN";
+            this.TowerUniteSteamdirectoryBTN.Size = new System.Drawing.Size(148, 23);
+            this.TowerUniteSteamdirectoryBTN.TabIndex = 6;
+            this.TowerUniteSteamdirectoryBTN.Text = "TowerUnite Steam directory";
+            this.TowerUniteSteamdirectoryBTN.UseVisualStyleBackColor = true;
+            this.TowerUniteSteamdirectoryBTN.Click += new System.EventHandler(this.TowerUniteSteamdirectoryBTN_CLICK);
+            // 
+            // TowerUniteSteamdirectoryPAHT
+            // 
+            this.TowerUniteSteamdirectoryPAHT.Location = new System.Drawing.Point(166, 112);
+            this.TowerUniteSteamdirectoryPAHT.Name = "TowerUniteSteamdirectoryPAHT";
+            this.TowerUniteSteamdirectoryPAHT.Size = new System.Drawing.Size(185, 20);
+            this.TowerUniteSteamdirectoryPAHT.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonShadow;
-            this.ClientSize = new System.Drawing.Size(360, 138);
+            this.ClientSize = new System.Drawing.Size(360, 193);
+            this.Controls.Add(this.TowerUniteSteamdirectoryPAHT);
+            this.Controls.Add(this.TowerUniteSteamdirectoryBTN);
+            this.Controls.Add(this.OpenSelctedItemsBTN);
             this.Controls.Add(this.DownloadAllRomsCD);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.HandheldsCBL);
@@ -140,6 +173,9 @@
         private System.Windows.Forms.CheckedListBox HandheldsCBL;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckBox DownloadAllRomsCD;
+        private System.Windows.Forms.Button OpenSelctedItemsBTN;
+        private System.Windows.Forms.Button TowerUniteSteamdirectoryBTN;
+        private System.Windows.Forms.TextBox TowerUniteSteamdirectoryPAHT;
     }
 }
 
